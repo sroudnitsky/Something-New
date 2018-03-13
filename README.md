@@ -1,18 +1,18 @@
 # Something-New
 
-Team Something-New: Sean Roudnitsky, Shruthi Venkata, Derek Song  
+Team Something New -- Sean Roudnitsky, Shruthi Venkata, Derek Song  
 APCS2 pd08  
-L #01: What Does the Data Say? And how?  
+L #01 -- What Does the Data Say? And how?  
 2018-03-13  
+
+# Background
+Write Java class QuickSort, which will use partitioning to recursively sort an array of ints.
 
 # Hypothesis  
 your assessment of QuickSort’s Big-Oh runtime classification, abstracted to the algorithm level, in the  
     best case,  
     average or most likely case, and  
     worst case  
-
-# Background
-Write Java class QuickSort, which will use partitioning to recursively sort an array of ints.
 
 # Experiment Methodology
 Explain algo here
