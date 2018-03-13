@@ -78,8 +78,8 @@ public class QuickSort
 	
 	for (int x = left; x < right; x++) {
 	    if (arr[x] <= pivotVal) {
-		swap(x, storeVal, arr);
-		storeVal++;
+		swap(x, ret, arr);
+		ret++;
 	    }
 	}
 	swap(ret, right, arr);
