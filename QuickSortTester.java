@@ -1,3 +1,14 @@
+/* Timing Mechanism
+Using System.nanoTime(), we kept track of when we started a quicksort, 
+and subracted that time from the time that the sort is completed and 
+printed this elapsed time into the terminal. 
+
+We did this for increasingly larger sized arrays by using a while
+loop and raising the size of the array by a desired incremnt.
+*/
+
+
+
 public class QuickSortTester {
     
     public static void main(String [] args) {
