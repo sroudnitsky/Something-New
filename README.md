@@ -22,5 +22,7 @@ Link to spreadsheets with graphs:
 https://drive.google.com/drive/folders/1cz-UhGsdMt5WLNXR-fTyKjkpyfpCJkc6?usp=sharing
 
 # Conclusion
-- Analysis of raw data
+- Analysis of raw data  
+- Time measurements?   
+- how pivot selection and data arrangement affect execution time.  
 - Mention any results that we can't explain
