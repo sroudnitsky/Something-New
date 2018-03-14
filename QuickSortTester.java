@@ -17,7 +17,7 @@ public class QuickSortTester {
 
 	QuickSort arr = new QuickSort();
 
-	while (i < 100000) {
+	while (i < 40000) {
 	    
 	    long start, elapsed;
 	    int[] array = arr.buildArray(i, 1000);
