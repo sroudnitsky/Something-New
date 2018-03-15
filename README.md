@@ -17,9 +17,18 @@ your assessment of QuickSort’s Big-Oh runtime classification, abstracted to th
 # Experiment Methodology
 In QuickSortTester.java, the main method contains a while loop that randomly populates an array of n elements, starting at 1 and incrementing by 1 up to a 100000-element array. Each time, it uses System.currenttimemillis to determine the amount of time that has elapsed from the start to end of the qsort() method (which uses the algorithm to sort the array). These values are stored in a csv file when, in the terminal, you run by entering `java QuickSortTester >>Data.csv`.
 
+Pseudocode explaining the qsort algorithm:
+QSort(arr):
+   algo qsort(arr,left,right) {  
+      if left < right  
+         pvtPos = postition(arr,left,right)  
+            qsort(arr,left,pvtpos-1)  
+            qsort(arr,pvtPos+1, right)  
+
 # Results
 Link to spreadsheets with graphs:  
-https://drive.google.com/drive/folders/1cz-UhGsdMt5WLNXR-fTyKjkpyfpCJkc6?usp=sharing  
+https://goo.gl/KEUTRh  
+
 
 # Conclusion
 - Analysis of raw data  
