@@ -19,7 +19,8 @@ In QuickSortTester.java, the main method contains a while loop that randomly pop
 
 # Results
 Link to spreadsheets with graphs:  
-https://drive.google.com/drive/folders/1cz-UhGsdMt5WLNXR-fTyKjkpyfpCJkc6?usp=sharing
+https://goo.gl/KEUTRh  
+
 
 # Conclusion
 - Analysis of raw data  
