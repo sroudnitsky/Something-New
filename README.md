@@ -9,7 +9,9 @@ L #01 -- What Does the Data Say? And how?
 Write Java class QuickSort, which will use partitioning to recursively sort an array of ints. Develop and implement a mechanism for timing your QuickSort implementation. Assess the Big-Oh runtime classifacation in the best case, average case, and the worst case.
 
 # Hypothesis  
-- What do you think are the Big-Oh runtimes for best, worst, and average cases?
+For best case, our group believes that the big-O runtime would be O(nlogn)
+For worse case, our group believes that the big-O runtime would be O(n^2)
+For average cases, our group believes that the big-O runtime would be O(n)
 
 # Experiment Methodology
 In QuickSortTester.java, the main method contains a while loop that randomly populates an array of n elements, starting at 1 and incrementing by 1 up to a 100000-element array. Each time, it uses System.currenttimemillis to determine the amount of time that has elapsed from the start to end of the qsort() method (which uses the algorithm to sort the array). These values are stored in a csv file when, in the terminal, you run by entering `java QuickSortTester >>Data.csv`.
@@ -27,7 +29,4 @@ Link to spreadsheets with graphs:
 https://drive.google.com/drive/folders/1cz-UhGsdMt5WLNXR-fTyKjkpyfpCJkc6?usp=sharing  
 
 # Conclusion
-- Analysis of raw data  
-- Time measurements?   
-- how pivot selection and data arrangement affect execution time.  
-- Mention any results that we can't explain
+Overall, when we put random data points, we got a linear or slightly exponential curve and this was due to the fact that as our n value increased, there was a increased runtime. If the best case or worst case occurred, then there would be a huge spike or drop in runtime. Such results were prominent after the n value went beyond 40000. 
