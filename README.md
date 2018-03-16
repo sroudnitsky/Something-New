@@ -30,4 +30,4 @@ Link to spreadsheets with graphs:
 https://drive.google.com/drive/folders/1cz-UhGsdMt5WLNXR-fTyKjkpyfpCJkc6?usp=sharing  
 
 # Conclusion
-Overall, when we put random data points, we got a linear or slightly exponential curve and this was due to the fact that as our n value increased, there was a increased runtime. If the best case or worst case occurred, then there would be a huge spike or drop in runtime. Such results were prominent after the n value went beyond 40000. 
+When we performed QuickSort on randomly-generated arrays of increasing length, the runtime to sort each array a new data point, the data generated an linear, slightly concave-up curve. This was due to the fact that as our n value increased, there was a increased runtime--the graph did match most closely to that of O(nlogn), confirming our average-runtime hypothesis. If the best case or worst case occurred, then there would be a huge spike or drop in runtime. Such results were prominent after the n value went beyond 40000. 
